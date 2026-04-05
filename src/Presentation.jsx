@@ -338,6 +338,12 @@ app.get('/foo', (req, res) => {
 
             <Slide>
                 <h2>HTTP - and that's about it!</h2>
+                <p>What I want you to remember:</p>
+                <ul>
+                    <li>Request, response</li>
+                    <li>Request: method, location, headers, body</li>
+                    <li>Response: status, headers, body</li>
+                </ul>
             </Slide>
         </Deck>
     )
