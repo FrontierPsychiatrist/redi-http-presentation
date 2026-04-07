@@ -171,6 +171,25 @@ Content-Type: application/json
             </Slide>
 
             <Slide>
+                <h2>Detour - URLs</h2>
+
+                <p style={{ fontWeight: 'lighter', fontSize: '2rem'}}>
+                    <span style={{ color: 'pink' }}>https://</span>
+                    <span style={{ color: 'green' }}>www.example.com</span>
+                    <span style={{ color: 'red' }}>/person/moritz</span>
+                    <span style={{ color: 'cyan' }}>?full=true&q=1</span>
+                    <span style={{ color: 'yellow' }}>#v2</span>
+                </p>
+                <ul>
+                    <li style={{ color: 'pink' }}>scheme</li>
+                    <li style={{ color: 'green' }}>domain</li>
+                    <li style={{ color: 'red' }}>path</li>
+                    <li style={{ color: 'cyan' }}>query/search</li>
+                    <li style={{ color: 'yellow' }}>hash</li>
+                </ul>
+            </Slide>
+
+            <Slide>
                 <h2>HTTP request - location</h2>
                 <Code>
                     {`/foo?bar=baz&bar=3&abc#v1`}
@@ -345,6 +364,19 @@ app.get('/foo', (req, res) => {
                     <li>Response: status, headers, body</li>
                 </ul>
             </Slide>
+
+            <Slide>
+                <h2>DNS</h2>
+                <img src="https://tse4.mm.bing.net/th/id/OIP.iazYBiU5xL4aQmOW_gUVwQHaEa?pid=Api"/>
+            </Slide>
+
+            <Slide>
+                <h2>DNS</h2>
+                <p>
+                    Addressbook for domain to IP address
+                </p>
+            </Slide>
         </Deck>
     )
 }
+
